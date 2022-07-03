@@ -1,23 +1,23 @@
 #include <stdio.h>
 
-/*
- * main -assign a random number to the variable n each time it is executed
+/**
+ * main - prints all the numbers of base 16 in lowercase,
  * followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char ch;
 	int n;
+	char ch;
 
 	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
 	}
-	for (ch = 97; ch < 103; ch++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}
-	putchar(10);
+	putchar('\n');
 	return (0);
 }
