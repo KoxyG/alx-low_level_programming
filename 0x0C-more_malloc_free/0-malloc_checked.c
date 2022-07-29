@@ -1,11 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * malloc_checked - This is a function that allocates memory.
- * @b: a parameter
- * Return: 0
+ * @b: mumber of byte to be allocated
+ *
+ * Return: A pointer to the allocated memory
  */
 void *malloc_checked(unsigned int b)
 {
