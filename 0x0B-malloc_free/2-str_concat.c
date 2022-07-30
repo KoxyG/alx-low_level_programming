@@ -1,12 +1,6 @@
 #include "main.h"
+
 /**
-<<<<<<< HEAD
- * str_concat -> string concatinating function
- * @s1: string 1
- * @s2: string 2
- * Return: string 1 + string 2
- */
-=======
 * str_concat -> string concatinating function
 * @s1: string 1
 * @s2: string 2
@@ -44,5 +38,4 @@ char *str_concat(char *s1, char *s2)
 	}
 	s[k] = '\0';
 	return (s);
->>>>>>> 434522e3c48ef87385ac3b6af8420a16e473bf5c
 }
